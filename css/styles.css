@@ -1,0 +1,170 @@
+/* Estilos gerais */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para a tela de login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.login-box {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4da6ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Estilos para a tela com navegação e formulário */
+.main-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.sidebar {
+  width: 100px;
+  background-color: #4da6ff;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar h2 {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.content form {
+  margin-top: 20px;
+}
+
+.content .form-group {
+  margin-bottom: 20px;
+}
+
+.content .form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.content .form-group input,
+.content .form-group select,
+.content .form-group textarea {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.content button[type="submit"] {
+  background-color: #4da6ff;
+  color: #fff;
+}
+
+/* Estilos para a tabela */
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.content th,
+.content td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.content th {
+  background-color: #4da6ff;
+  color: #fff;
+}
+
+.content td:first-child {
+  font-weight: bold;
+}
+
+.content tr:hover {
+  background-color: #f5f5f5;
+}
+
+#sair {
+  color: red;
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid rgb(255, 255, 255);
+}
