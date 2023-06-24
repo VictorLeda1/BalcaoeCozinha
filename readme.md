@@ -1,4 +1,5 @@
 Sistema Fictício para Pizzarias e Outros Estabelecimentos
+
 Este projeto apresenta um sistema fictício desenvolvido para pizzarias e outros estabelecimentos similares, com o objetivo de gerenciar o fluxo de pedidos, desde a criação até a sua conclusão e notificação aos clientes.
 
 Funcionalidades Principais
